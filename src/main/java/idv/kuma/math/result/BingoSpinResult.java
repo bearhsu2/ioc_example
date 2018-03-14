@@ -2,6 +2,10 @@ package idv.kuma.math.result;
 
 import com.google.gson.annotations.SerializedName;
 
+
+
+// TODO 3: explain why this avoids feature envy => BingoSpinResultDetails
+//                                              => BingoSpinResult.getXXXMap.get(new Long(1));
 public class BingoSpinResult implements SpinResult {
 
     @SerializedName("w")
