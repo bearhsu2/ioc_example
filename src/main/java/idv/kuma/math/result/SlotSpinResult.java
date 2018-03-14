@@ -6,6 +6,8 @@ public class SlotSpinResult implements SpinResult {
     private long win;
     private long bet;
 
+
+    // TODO 1: make this attribute invisible
     private int line;
 
     public SlotSpinResult(long win, long bet, int line) {
